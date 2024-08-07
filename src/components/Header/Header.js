@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <header class='flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
       <div class='flex flex-wrap items-center justify-between gap-5 w-full'>
-        <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
+        <a className='text-yellow-400 font-sans font-bold' href="javascript:void(0)">
+          {/* <img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' /> */}
+          V-K ReviewFood
         </a>
 
         <div id="collapseMenu"
@@ -51,9 +53,9 @@ const Header = () => {
 
         <div class='flex max-lg:ml-auto space-x-3'>
           <button
-            class='px-4 py-2 text-sm rounded-full font-bold text-white border-2 border-[#007bff] bg-[#007bff] transition-all ease-in-out duration-300 hover:bg-transparent hover:text-[#007bff]'>Login</button>
+            class='px-4 py-2 text-sm shadow-sm font-bold shadow-yellow-600 text-yellow-500 border-2 border-[#007bff] bg-white transition-all ease-in-out duration-300 hover:bg-yellow-500 hover:text-white'>Login</button>
           <button
-            class='px-4 py-2 text-sm rounded-full font-bold text-white border-2 border-[#007bff] bg-[#007bff] transition-all ease-in-out duration-300 hover:bg-transparent hover:text-[#007bff]'>Sign
+            class='px-4 py-2 text-sm shadow-sm shadow-yellow-600 font-bold text-yellow-500 border-2 border-[#007bff] bg-white transition-all ease-in-out duration-300 hover:bg-yellow-500 hover:text-white'>Sign
             up</button>
 
           <button id="toggleOpen" class='lg:hidden'>
